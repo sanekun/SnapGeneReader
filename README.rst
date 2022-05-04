@@ -1,8 +1,8 @@
 SnapGene Reader
 ===============
 
-.. image:: https://travis-ci.org/Edinburgh-Genome-Foundry/SnapGeneReader.svg?branch=master
-   :target: https://travis-ci.org/Edinburgh-Genome-Foundry/SnapGeneReader
+.. image:: https://github.com/Edinburgh-Genome-Foundry/Flametree/actions/workflows/build.yml/badge.svg
+   :target: https://github.com/Edinburgh-Genome-Foundry/Flametree/actions/workflows/build.yml
    :alt: Travis CI build status
 
 .. image:: https://coveralls.io/repos/github/Edinburgh-Genome-Foundry/SnapGeneReader/badge.svg?branch=master
@@ -32,8 +32,8 @@ Test with Pytest:
 
 .. code:: bash
 
-    python -m pytest
-    # or simply "pytest"
+    pytest --cov=snapgene_reader tests/
+
 
 Licence = MIT
 -------------
